@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(delivery));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox_id = new System.Windows.Forms.TextBox();
             this.textBox_fio = new System.Windows.Forms.TextBox();
@@ -42,8 +43,26 @@
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_activate = new System.Windows.Forms.Button();
             this.textBox_search = new System.Windows.Forms.TextBox();
-            this.btn_refresh = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_open_workshift = new System.Windows.Forms.Button();
+            this.btn_close_workshift = new System.Windows.Forms.Button();
+            this.btn_workshift = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -51,163 +70,335 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 71);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 68);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(758, 268);
+            this.dataGridView1.Size = new System.Drawing.Size(896, 268);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // textBox_id
             // 
-            this.textBox_id.Location = new System.Drawing.Point(254, 377);
+            this.textBox_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox_id.Location = new System.Drawing.Point(161, 55);
+            this.textBox_id.Multiline = true;
             this.textBox_id.Name = "textBox_id";
-            this.textBox_id.Size = new System.Drawing.Size(100, 22);
+            this.textBox_id.Size = new System.Drawing.Size(198, 30);
             this.textBox_id.TabIndex = 1;
             // 
             // textBox_fio
             // 
-            this.textBox_fio.Location = new System.Drawing.Point(254, 405);
+            this.textBox_fio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox_fio.Location = new System.Drawing.Point(161, 91);
+            this.textBox_fio.Multiline = true;
             this.textBox_fio.Name = "textBox_fio";
-            this.textBox_fio.Size = new System.Drawing.Size(100, 22);
+            this.textBox_fio.Size = new System.Drawing.Size(198, 30);
             this.textBox_fio.TabIndex = 2;
             // 
             // textBox_date_of_birth
             // 
-            this.textBox_date_of_birth.Location = new System.Drawing.Point(254, 433);
+            this.textBox_date_of_birth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox_date_of_birth.Location = new System.Drawing.Point(161, 127);
+            this.textBox_date_of_birth.Multiline = true;
             this.textBox_date_of_birth.Name = "textBox_date_of_birth";
-            this.textBox_date_of_birth.Size = new System.Drawing.Size(100, 22);
+            this.textBox_date_of_birth.Size = new System.Drawing.Size(198, 30);
             this.textBox_date_of_birth.TabIndex = 3;
             // 
             // textBox_phone
             // 
-            this.textBox_phone.Location = new System.Drawing.Point(254, 461);
+            this.textBox_phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox_phone.Location = new System.Drawing.Point(161, 162);
+            this.textBox_phone.Multiline = true;
             this.textBox_phone.Name = "textBox_phone";
-            this.textBox_phone.Size = new System.Drawing.Size(100, 22);
+            this.textBox_phone.Size = new System.Drawing.Size(198, 30);
             this.textBox_phone.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(227, 377);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(128, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 16);
+            this.label1.Size = new System.Drawing.Size(27, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "id:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(207, 408);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(101, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 16);
+            this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "ФИО:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(140, 436);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(9, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 16);
+            this.label3.Size = new System.Drawing.Size(146, 20);
             this.label3.TabIndex = 7;
-            this.label3.Text = "дата рождения:";
+            this.label3.Text = "Дата рождения:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(180, 464);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(65, 172);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 16);
+            this.label4.Size = new System.Drawing.Size(90, 20);
             this.label4.TabIndex = 8;
-            this.label4.Text = "телефон:";
+            this.label4.Text = "Телефон:";
             // 
             // btn_new
             // 
-            this.btn_new.Location = new System.Drawing.Point(523, 375);
+            this.btn_new.BackColor = System.Drawing.Color.DimGray;
+            this.btn_new.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_new.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_new.Location = new System.Drawing.Point(123, 8);
             this.btn_new.Name = "btn_new";
-            this.btn_new.Size = new System.Drawing.Size(125, 23);
+            this.btn_new.Size = new System.Drawing.Size(241, 41);
             this.btn_new.TabIndex = 9;
             this.btn_new.Text = "Новая запись";
-            this.btn_new.UseVisualStyleBackColor = true;
+            this.btn_new.UseVisualStyleBackColor = false;
             this.btn_new.Click += new System.EventHandler(this.btn_new_Click);
             // 
             // btn_deactivate
             // 
-            this.btn_deactivate.Location = new System.Drawing.Point(523, 464);
+            this.btn_deactivate.BackColor = System.Drawing.Color.DimGray;
+            this.btn_deactivate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_deactivate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_deactivate.Location = new System.Drawing.Point(123, 149);
             this.btn_deactivate.Name = "btn_deactivate";
-            this.btn_deactivate.Size = new System.Drawing.Size(125, 23);
+            this.btn_deactivate.Size = new System.Drawing.Size(241, 41);
             this.btn_deactivate.TabIndex = 10;
             this.btn_deactivate.Text = "Деактивировать";
-            this.btn_deactivate.UseVisualStyleBackColor = true;
+            this.btn_deactivate.UseVisualStyleBackColor = false;
             this.btn_deactivate.Click += new System.EventHandler(this.btn_deactivate_Click);
             // 
             // btn_edit
             // 
-            this.btn_edit.Location = new System.Drawing.Point(523, 405);
+            this.btn_edit.BackColor = System.Drawing.Color.DimGray;
+            this.btn_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_edit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_edit.Location = new System.Drawing.Point(123, 55);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(125, 23);
+            this.btn_edit.Size = new System.Drawing.Size(241, 41);
             this.btn_edit.TabIndex = 11;
             this.btn_edit.Text = "Изменить";
-            this.btn_edit.UseVisualStyleBackColor = true;
+            this.btn_edit.UseVisualStyleBackColor = false;
             this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // btn_activate
             // 
-            this.btn_activate.Location = new System.Drawing.Point(523, 433);
+            this.btn_activate.BackColor = System.Drawing.Color.DimGray;
+            this.btn_activate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_activate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_activate.Location = new System.Drawing.Point(123, 102);
             this.btn_activate.Name = "btn_activate";
-            this.btn_activate.Size = new System.Drawing.Size(125, 23);
+            this.btn_activate.Size = new System.Drawing.Size(241, 41);
             this.btn_activate.TabIndex = 12;
             this.btn_activate.Text = "Активировать";
-            this.btn_activate.UseVisualStyleBackColor = true;
+            this.btn_activate.UseVisualStyleBackColor = false;
             this.btn_activate.Click += new System.EventHandler(this.btn_activate_Click);
             // 
             // textBox_search
             // 
-            this.textBox_search.Location = new System.Drawing.Point(614, 33);
+            this.textBox_search.Location = new System.Drawing.Point(600, 9);
+            this.textBox_search.Multiline = true;
             this.textBox_search.Name = "textBox_search";
-            this.textBox_search.Size = new System.Drawing.Size(100, 22);
+            this.textBox_search.Size = new System.Drawing.Size(224, 36);
             this.textBox_search.TabIndex = 13;
             this.textBox_search.TextChanged += new System.EventHandler(this.textBox_search_TextChanged);
             // 
-            // btn_refresh
+            // panel1
             // 
-            this.btn_refresh.Location = new System.Drawing.Point(481, 31);
-            this.btn_refresh.Name = "btn_refresh";
-            this.btn_refresh.Size = new System.Drawing.Size(88, 23);
-            this.btn_refresh.TabIndex = 14;
-            this.btn_refresh.Text = "Обновить";
-            this.btn_refresh.UseVisualStyleBackColor = true;
-            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
+            this.panel1.BackColor = System.Drawing.Color.LightGray;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.textBox_id);
+            this.panel1.Controls.Add(this.textBox_fio);
+            this.panel1.Controls.Add(this.textBox_date_of_birth);
+            this.panel1.Controls.Add(this.textBox_phone);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Location = new System.Drawing.Point(15, 343);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(382, 200);
+            this.panel1.TabIndex = 15;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Schoolbook", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(74, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 21);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Запись:";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.LightGray;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.btn_activate);
+            this.panel2.Controls.Add(this.btn_new);
+            this.panel2.Controls.Add(this.btn_deactivate);
+            this.panel2.Controls.Add(this.btn_edit);
+            this.panel2.Location = new System.Drawing.Point(536, 343);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(372, 200);
+            this.panel2.TabIndex = 16;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Schoolbook", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(7, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(110, 38);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Управление \r\nзаписями:";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.LightGray;
+            this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.textBox_search);
+            this.panel3.Location = new System.Drawing.Point(12, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(896, 59);
+            this.panel3.TabIndex = 17;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(72, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(220, 25);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Страница курьеров";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(538, 9);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(42, 36);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 16;
+            this.pictureBox3.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Location = new System.Drawing.Point(830, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(51, 48);
+            this.button1.TabIndex = 15;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(63, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(59, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btn_open_workshift
+            // 
+            this.btn_open_workshift.BackColor = System.Drawing.Color.DimGray;
+            this.btn_open_workshift.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_open_workshift.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_open_workshift.Location = new System.Drawing.Point(413, 343);
+            this.btn_open_workshift.Name = "btn_open_workshift";
+            this.btn_open_workshift.Size = new System.Drawing.Size(103, 58);
+            this.btn_open_workshift.TabIndex = 14;
+            this.btn_open_workshift.Text = "Активация смены";
+            this.btn_open_workshift.UseVisualStyleBackColor = false;
+            this.btn_open_workshift.Click += new System.EventHandler(this.btn_open_workshift_Click);
+            // 
+            // btn_close_workshift
+            // 
+            this.btn_close_workshift.BackColor = System.Drawing.Color.DimGray;
+            this.btn_close_workshift.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_close_workshift.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_close_workshift.Location = new System.Drawing.Point(413, 407);
+            this.btn_close_workshift.Name = "btn_close_workshift";
+            this.btn_close_workshift.Size = new System.Drawing.Size(103, 58);
+            this.btn_close_workshift.TabIndex = 18;
+            this.btn_close_workshift.Text = "Закрытие смены";
+            this.btn_close_workshift.UseVisualStyleBackColor = false;
+            this.btn_close_workshift.Click += new System.EventHandler(this.btn_close_workshift_Click);
+            // 
+            // btn_workshift
+            // 
+            this.btn_workshift.BackColor = System.Drawing.Color.DimGray;
+            this.btn_workshift.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_workshift.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_workshift.Location = new System.Drawing.Point(413, 485);
+            this.btn_workshift.Name = "btn_workshift";
+            this.btn_workshift.Size = new System.Drawing.Size(103, 58);
+            this.btn_workshift.TabIndex = 19;
+            this.btn_workshift.Text = "Смены";
+            this.btn_workshift.UseVisualStyleBackColor = false;
+            this.btn_workshift.Click += new System.EventHandler(this.btn_workshift_Click);
             // 
             // delivery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 554);
-            this.Controls.Add(this.btn_refresh);
-            this.Controls.Add(this.textBox_search);
-            this.Controls.Add(this.btn_activate);
-            this.Controls.Add(this.btn_edit);
-            this.Controls.Add(this.btn_deactivate);
-            this.Controls.Add(this.btn_new);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox_phone);
-            this.Controls.Add(this.textBox_date_of_birth);
-            this.Controls.Add(this.textBox_fio);
-            this.Controls.Add(this.textBox_id);
+            this.ClientSize = new System.Drawing.Size(941, 554);
+            this.Controls.Add(this.btn_workshift);
+            this.Controls.Add(this.btn_close_workshift);
+            this.Controls.Add(this.btn_open_workshift);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "delivery";
             this.Text = "delivery";
             this.Load += new System.EventHandler(this.delivery_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -227,6 +418,18 @@
         private System.Windows.Forms.Button btn_edit;
         private System.Windows.Forms.Button btn_activate;
         private System.Windows.Forms.TextBox textBox_search;
-        private System.Windows.Forms.Button btn_refresh;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_open_workshift;
+        private System.Windows.Forms.Button btn_close_workshift;
+        private System.Windows.Forms.Button btn_workshift;
     }
 }

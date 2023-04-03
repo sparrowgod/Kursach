@@ -63,9 +63,9 @@ namespace kursach.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avtor {
+        internal static System.Drawing.Bitmap author {
             get {
-                object obj = ResourceManager.GetObject("Avtor", resourceCulture);
+                object obj = ResourceManager.GetObject("author", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="purchasesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 17</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="booksBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>938, 17</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>746, 17</value>
+  </metadata>
+  <metadata name="authorsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>209, 60</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <metadata name="deliveriesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>808, 60</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>616, 60</value>
+  </metadata>
+  <metadata name="publishinghouseBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 103</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1239, 60</value>
+  </metadata>
+  <metadata name="purchasesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>423, 17</value>
+  </metadata>
+  <metadata name="booksTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1135, 17</value>
+  </metadata>
+  <metadata name="authorsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>416, 60</value>
+  </metadata>
+  <metadata name="deliveriesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1027, 60</value>
+  </metadata>
+  <metadata name="publishing_houseTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>285, 103</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>552, 103</value>
+  </metadata>
+  <metadata name="booksBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>744, 103</value>
+  </metadata>
+  <metadata name="booksTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>949, 103</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1147, 103</value>
+  </metadata>
+  <metadata name="booksBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 146</value>
+  </metadata>
+  <metadata name="booksTableAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>222, 146</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>420, 146</value>
+  </metadata>
+  <metadata name="dB_BOOKSDataSet7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>555, 146</value>
+  </metadata>
+  <metadata name="report1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>747, 146</value>
+  </metadata>
+  <data name="report1.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/14/2022 18:08:40" ReportInfo.Modified="05/25/2022 14:30:39" ReportInfo.CreatorVersion="2022.2.8.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Purchases" ReferenceName="dB_BOOKSDataSet.Purchases" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_purchase" DataType="System.Int32"/&gt;
+      &lt;Column Name="Code_book" DataType="System.Int32"/&gt;
+      &lt;Column Name="Date_order" DataType="System.DateTime"/&gt;
+      &lt;Column Name="Code_delivery" DataType="System.Int32"/&gt;
+      &lt;Column Name="Type_purchase" DataType="System.Boolean" BindableControl="CheckBox"/&gt;
+      &lt;Column Name="Cost" DataType="System.Double"/&gt;
+      &lt;Column Name="Amount" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Books" ReferenceName="dB_BOOKSDataSet1.Books" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_book" DataType="System.Int32"/&gt;
+      &lt;Column Name="Title_book" DataType="System.String"/&gt;
+      &lt;Column Name="Code_author" DataType="System.Int32"/&gt;
+      &lt;Column Name="Pages" DataType="System.Int32"/&gt;
+      &lt;Column Name="Code_publish" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Authors" ReferenceName="dB_BOOKSDataSet2.Authors" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_author" DataType="System.Int32"/&gt;
+      &lt;Column Name="name_author" DataType="System.String"/&gt;
+      &lt;Column Name="Birthday" DataType="System.DateTime"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Deliveries" ReferenceName="dB_BOOKSDataSet3.Deliveries" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_delivery" DataType="System.Int32"/&gt;
+      &lt;Column Name="Name_delivery" DataType="System.String"/&gt;
+      &lt;Column Name="Name_company" DataType="System.String"/&gt;
+      &lt;Column Name="Address" DataType="System.String"/&gt;
+      &lt;Column Name="Phone" DataType="System.Int64"/&gt;
+      &lt;Column Name="INN" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Publishing_house" ReferenceName="dB_BOOKSDataSet4.Publishing_house" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_publish" DataType="System.Int32"/&gt;
+      &lt;Column Name="Publish" DataType="System.String"/&gt;
+      &lt;Column Name="City" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Books1" ReferenceName="dB_BOOKSDataSet5.Books" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_book" DataType="System.Int32"/&gt;
+      &lt;Column Name="Title_book" DataType="System.String"/&gt;
+      &lt;Column Name="Code_author" DataType="System.Int32"/&gt;
+      &lt;Column Name="Pages" DataType="System.Int32"/&gt;
+      &lt;Column Name="Code_publish" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Books2" ReferenceName="dB_BOOKSDataSet6.Books" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_book" DataType="System.Int32"/&gt;
+      &lt;Column Name="Title_book" DataType="System.String"/&gt;
+      &lt;Column Name="Code_author" DataType="System.Int32"/&gt;
+      &lt;Column Name="Pages" DataType="System.Int32"/&gt;
+      &lt;Column Name="Code_publish" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Purchases1" ReferenceName="dB_BOOKSDataSet7.Purchases" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Code_purchase" DataType="System.Int32"/&gt;
+      &lt;Column Name="Code_book" DataType="System.Int32"/&gt;
+      &lt;Column Name="Date_order" DataType="System.DateTime"/&gt;
+      &lt;Column Name="Code_delivery" DataType="System.Int32"/&gt;
+      &lt;Column Name="Type_purchase" DataType="System.Boolean" BindableControl="CheckBox"/&gt;
+      &lt;Column Name="Cost" DataType="System.Double"/&gt;
+      &lt;Column Name="Amount" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Watermark.Font="Arial, 60pt"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="94.5" Border.Lines="Top"&gt;
+      &lt;TableObject Name="Table1" Width="330.75" Height="94.5" Border.Lines="Left, Top, Bottom"&gt;
+        &lt;TableColumn Name="Column1"/&gt;
+        &lt;TableColumn Name="Column2"/&gt;
+        &lt;TableColumn Name="Column3"/&gt;
+        &lt;TableColumn Name="Column4"/&gt;
+        &lt;TableColumn Name="Column5"/&gt;
+        &lt;TableRow Name="Row1"&gt;
+          &lt;TableCell Name="Cell1" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell2" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell3" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell4" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell5" Text="[Purchases.Date_order]" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row2"&gt;
+          &lt;TableCell Name="Cell6" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell7" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell8" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell9" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell10" Text="[Purchases.Type_purchase]" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row3"&gt;
+          &lt;TableCell Name="Cell11" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell12" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell13" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell14" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell15" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row4"&gt;
+          &lt;TableCell Name="Cell16" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell17" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell18" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell19" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell20" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row5"&gt;
+          &lt;TableCell Name="Cell21" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell22" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell23" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell24" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell25" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+      &lt;/TableObject&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="97.7" Width="718.2" Height="28.35"/&gt;
+    &lt;DataBand Name="Data1" Top="129.25" Width="718.2" Height="75.6"/&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="208.05" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="report2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>854, 146</value>
+  </metadata>
+  <data name="report2.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/14/2022 18:08:42" ReportInfo.Modified="05/25/2022 14:30:39" ReportInfo.CreatorVersion="2022.2.8.0"&gt;
+  &lt;Dictionary/&gt;
+  &lt;ReportPage Name="Page1" Watermark.Font="Arial, 60pt"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="41" Width="718.2" Height="28.35"/&gt;
+    &lt;DataBand Name="Data1" Top="72.55" Width="718.2" Height="75.6"/&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="151.35" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="report3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>961, 146</value>
+  </metadata>
+  <data name="report3.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/14/2022 18:08:44" ReportInfo.Modified="05/25/2022 14:30:39" ReportInfo.CreatorVersion="2022.2.8.0"&gt;
+  &lt;Dictionary/&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>228</value>
+  </metadata>
+</root>

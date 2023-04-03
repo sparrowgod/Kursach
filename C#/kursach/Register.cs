@@ -29,6 +29,16 @@ namespace kursach
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            try
+            {
+                database.openConnection();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Application.Exit();
+            }
+
             var login = textBox_login.Text;
             var password = textBox_password.Text;
 
@@ -36,14 +46,12 @@ namespace kursach
 
             SqlCommand command = new SqlCommand(queryString, database.GetConnection());
 
-            database.openConnection();
-
             if (command.ExecuteNonQuery() == 1)
             {
                 MessageBox.Show("Аккант успешно создан!", "Успешно!");
-                Form1 frm1 = new Form1();
+                Authorization atrz = new Authorization();
                 this.Hide();
-                frm1.ShowDialog();
+                atrz.ShowDialog();
 
             }
             else
@@ -55,6 +63,16 @@ namespace kursach
 
         private Boolean checkuser()
         {
+            try
+            {
+                database.openConnection();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Application.Exit();
+            }
+
             var loginUser = textBox_login.Text;
             var passUser = textBox_password.Text;
             
@@ -78,6 +96,10 @@ namespace kursach
             }
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox_login.Text = "";
+            textBox_password.Text = "";
+        }
     }
 }

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A89E87A-7B12-4715-A48E-BEE93C6122A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kursovaya</RootNamespace>
+    <AssemblyName>kursovaya</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastReport, Version=2022.2.8.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Bars, Version=2022.2.8.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Compat, Version=2021.3.0.0, Culture=neutral, PublicKeyToken=406e1f4c3c8ef97e" />
+    <Reference Include="FastReport.DataVisualization, Version=2021.3.0.0, Culture=neutral, PublicKeyToken=5ceb240df42bf6e8" />
+    <Reference Include="FastReport.Editor, Version=2022.2.8.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMagazin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMagazin.Designer.cs">
+      <DependentUpon>FormMagazin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOtdel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOtdel.Designer.cs">
+      <DependentUpon>FormOtdel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrise.Designer.cs">
+      <DependentUpon>FormPrise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovar.Designer.cs">
+      <DependentUpon>FormTovar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZaved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZaved.Designer.cs">
+      <DependentUpon>FormZaved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kursach1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kursach1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Magaztovar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Magaztovar.Designer.cs">
+      <DependentUpon>Magaztovar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdinTovar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdinTovar.Designer.cs">
+      <DependentUpon>OdinTovar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otchettovarotdel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otchettovarotdel.Designer.cs">
+      <DependentUpon>otchettovarotdel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tovarivotdele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tovarivotdele.Designer.cs">
+      <DependentUpon>tovarivotdele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zaprosmagazin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zaprosmagazin.Designer.cs">
+      <DependentUpon>zaprosmagazin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zaprosotdel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zaprosotdel.Designer.cs">
+      <DependentUpon>zaprosotdel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zaprostovar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zaprostovar.Designer.cs">
+      <DependentUpon>zaprostovar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zaproszaved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zaproszaved.Designer.cs">
+      <DependentUpon>zaproszaved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zaveduyush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zaveduyush.Designer.cs">
+      <DependentUpon>zaveduyush.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMagazin.resx">
+      <DependentUpon>FormMagazin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOtdel.resx">
+      <DependentUpon>FormOtdel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrise.resx">
+      <DependentUpon>FormPrise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovar.resx">
+      <DependentUpon>FormTovar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZaved.resx">
+      <DependentUpon>FormZaved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Magaztovar.resx">
+      <DependentUpon>Magaztovar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdinTovar.resx">
+      <DependentUpon>OdinTovar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otchettovarotdel.resx">
+      <DependentUpon>otchettovarotdel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="tovarivotdele.resx">
+      <DependentUpon>tovarivotdele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zaprosmagazin.resx">
+      <DependentUpon>zaprosmagazin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zaprosotdel.resx">
+      <DependentUpon>zaprosotdel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zaprostovar.resx">
+      <DependentUpon>zaprostovar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zaproszaved.resx">
+      <DependentUpon>zaproszaved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zaveduyush.resx">
+      <DependentUpon>zaveduyush.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="kursach1DataSet.xsc">
+      <DependentUpon>kursach1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kursach1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kursach1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kursach1DataSet.xss">
+      <DependentUpon>kursach1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\zaprosotdel.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

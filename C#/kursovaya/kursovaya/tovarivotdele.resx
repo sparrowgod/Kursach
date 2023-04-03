@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="otdelBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>187, 17</value>
+  </metadata>
+  <metadata name="kursach1DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="otdelTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>377, 17</value>
+  </metadata>
+  <metadata name="report1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>560, 17</value>
+  </metadata>
+  <data name="report1.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="06/05/2022 22:55:10" ReportInfo.Modified="06/06/2022 18:38:34" ReportInfo.CreatorVersion="2022.2.8.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="magazin" ReferenceName="kursach1DataSet.magazin" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Код_магазина" DataType="System.Int32"/&gt;
+      &lt;Column Name="Название_магазина" DataType="System.String"/&gt;
+      &lt;Column Name="Класс_магазина" DataType="System.String"/&gt;
+      &lt;Column Name="Номер_магазина" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Otdel" ReferenceName="kursach1DataSet.Otdel" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Код_отдела" DataType="System.Int32"/&gt;
+      &lt;Column Name="Имя_отдела" DataType="System.String"/&gt;
+      &lt;Column Name="Код_заведующего" DataType="System.Int32"/&gt;
+      &lt;Column Name="Код_магазина" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="prise" ReferenceName="kursach1DataSet.prise" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Код_отдела" DataType="System.Int32"/&gt;
+      &lt;Column Name="Код_товара" DataType="System.Int32"/&gt;
+      &lt;Column Name="Цена_товара" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="Tovar" ReferenceName="kursach1DataSet.Tovar" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Код_товара" DataType="System.Int32"/&gt;
+      &lt;Column Name="Имя_товара" DataType="System.String"/&gt;
+      &lt;Column Name="Сорт_товарва" DataType="System.String"/&gt;
+      &lt;Column Name="Количество_товара" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="zaved" ReferenceName="kursach1DataSet.zaved" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Код_заведующего" DataType="System.Int32"/&gt;
+      &lt;Column Name="ФИО_заведующего" DataType="System.String"/&gt;
+      &lt;Column Name="Телефон_заведующего" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="magazintov" ReferenceName="kursach1DataSet.magazintov" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Название_магазина" DataType="System.String"/&gt;
+      &lt;Column Name="Имя_товара" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="OdinTovar" ReferenceName="kursach1DataSet.OdinTovar" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Имя_товара" DataType="System.String"/&gt;
+      &lt;Column Name="Имя_отдела" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="tovari" ReferenceName="kursach1DataSet.tovari" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Имя_отдела" DataType="System.String"/&gt;
+      &lt;Column Name="Имя_товара" DataType="System.String"/&gt;
+      &lt;Column Name="Количество_товара" DataType="System.Int32"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;TableDataSource Name="zaveduyush" ReferenceName="kursach1DataSet.zaveduyush" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="ФИО_заведующего" DataType="System.String"/&gt;
+      &lt;Column Name="Имя_отдела" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+    &lt;Relation Name="FK__Otdel__Код_завед__2A4B4B5E" ReferenceName="kursach1DataSet.FK__Otdel__Код_завед__2A4B4B5E" ParentDataSource="zaved" ChildDataSource="Otdel" ParentColumns="Код_заведующего" ChildColumns="Код_заведующего" Enabled="true"/&gt;
+    &lt;Relation Name="FK__Otdel__Код_магаз__2B3F6F97" ReferenceName="kursach1DataSet.FK__Otdel__Код_магаз__2B3F6F97" ParentDataSource="magazin" ChildDataSource="Otdel" ParentColumns="Код_магазина" ChildColumns="Код_магазина" Enabled="true"/&gt;
+    &lt;Relation Name="FK__prise__Код_отдел__2D27B809" ReferenceName="kursach1DataSet.FK__prise__Код_отдел__2D27B809" ParentDataSource="Otdel" ChildDataSource="prise" ParentColumns="Код_отдела" ChildColumns="Код_отдела" Enabled="true"/&gt;
+    &lt;Relation Name="FK__prise__Код_товар__2E1BDC42" ReferenceName="kursach1DataSet.FK__prise__Код_товар__2E1BDC42" ParentDataSource="Tovar" ChildDataSource="prise" ParentColumns="Код_товара" ChildColumns="Код_товара" Enabled="true"/&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1" Watermark.Font="Arial, 60pt"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="75.6"&gt;
+      &lt;TextObject Name="Text1" Left="37.8" Top="9.45" Width="321.3" Height="18.9" Text="Отчёт о списке товаров" Font="Arial, 14pt, style=Bold"/&gt;
+      &lt;TableObject Name="Table2" Left="56.7" Top="56.7" Width="604.81" Height="18.9" Border.Lines="All"&gt;
+        &lt;TableColumn Name="Column6" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column7" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column8" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column9" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column10" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column12" Width="95.76"/&gt;
+        &lt;TableRow Name="Row6" Height="11.34"&gt;
+          &lt;TableCell Name="Cell26" Border.Lines="All" Text="Товар&amp;#13;&amp;#10;" Font="Arial, 10pt, style=Bold" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell27" Border.Lines="All" Text="Отдел&amp;#13;&amp;#10;" Font="Arial, 10pt, style=Bold" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell28" Border.Lines="All" Text="Количество" Font="Arial, 10pt, style=Bold" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell29" Border.Lines="All" Text="Цена" Font="Arial, 10pt, style=Bold" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell30" Border.Lines="All" Text="Сорт" Font="Arial, 10pt, style=Bold" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell56" Text="Магазин&amp;#13;&amp;#10;" Font="Arial, 10pt, style=Bold" RowSpan="5"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row7" Height="1.89"&gt;
+          &lt;TableCell Name="Cell31" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell32" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell33" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell34" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell35" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell57" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row8" Height="1.89"&gt;
+          &lt;TableCell Name="Cell36" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell37" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell38" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell39" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell40" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell58" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row9" Height="1.89"&gt;
+          &lt;TableCell Name="Cell41" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell42" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell43" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell44" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell45" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell59" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row10" Height="1.89"&gt;
+          &lt;TableCell Name="Cell46" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell47" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell48" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell49" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell50" Border.Lines="All" Font="Arial, 10pt, style=Bold"/&gt;
+          &lt;TableCell Name="Cell60" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+      &lt;/TableObject&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;DataBand Name="Data1" Top="78.8" Width="718.2" Height="18.9" DataSource="prise"&gt;
+      &lt;TableObject Name="Table1" Left="56.7" Width="604.81" Height="18.9"&gt;
+        &lt;TableColumn Name="Column1" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column2" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column3" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column4" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column5" Width="101.81"/&gt;
+        &lt;TableColumn Name="Column11" Width="95.76"/&gt;
+        &lt;TableRow Name="Row1" Height="3.78"&gt;
+          &lt;TableCell Name="Cell1" Border.Lines="All" Text="[prise.Tovar.Имя_товара]" Font="Arial, 10pt" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell2" Border.Lines="All" Text="[prise.Otdel.Имя_отдела]" Font="Arial, 10pt" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell3" Border.Lines="All" Text="[prise.Tovar.Количество_товара] шт." Font="Arial, 10pt" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell4" Border.Lines="All" Text="[prise.Цена_товара] руб" Font="Arial, 10pt" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell5" Border.Lines="All" Text="[prise.Tovar.Сорт_товарва]" Font="Arial, 10pt" RowSpan="5"/&gt;
+          &lt;TableCell Name="Cell51" Border.Lines="All" Text="[prise.Otdel.magazin.Название_магазина]" Font="Arial, 10pt" RowSpan="5"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row2" Height="3.78"&gt;
+          &lt;TableCell Name="Cell6" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell7" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell8" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell9" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell10" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell52" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row3" Height="3.78"&gt;
+          &lt;TableCell Name="Cell11" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell12" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell13" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell14" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell15" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell53" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row4" Height="3.78"&gt;
+          &lt;TableCell Name="Cell16" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell17" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell18" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell19" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell20" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell54" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row5" Height="3.78"&gt;
+          &lt;TableCell Name="Cell21" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell22" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell23" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell24" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell25" Border.Lines="All" Font="Arial, 10pt"/&gt;
+          &lt;TableCell Name="Cell55" Font="Arial, 10pt"/&gt;
+        &lt;/TableRow&gt;
+      &lt;/TableObject&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="100.9" Width="718.2" Height="47.25"&gt;
+      &lt;TextObject Name="Text6" Left="406.35" Top="28.35" Width="94.5" Height="18.9" Text="(ФИО)" Font="Arial, 7pt"/&gt;
+      &lt;TextObject Name="Text7" Left="623.7" Top="28.35" Width="94.5" Height="18.9" Text="(подпись)&amp;#13;&amp;#10;" Font="Arial, 7pt"/&gt;
+      &lt;TextObject Name="Text5" Left="604.8" Top="9.45" Width="94.5" Height="18.9" Text="_________" Font="Arial, 10pt"/&gt;
+      &lt;TextObject Name="Text3" Left="151.2" Top="9.45" Width="94.5" Height="18.9" Text="Принял:" Font="Arial, 10pt"/&gt;
+      &lt;TextObject Name="Text4" Left="283.5" Top="9.45" Width="302.4" Height="18.9" Text="_________________________________________" Font="Arial, 10pt"/&gt;
+    &lt;/PageFooterBand&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

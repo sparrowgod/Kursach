@@ -5,7 +5,17 @@
       "ProjectGuid": "62405631-1217-41f7-9b34-b042045f5b69",
       "DisplayName": "kursach",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "61619a4c-85dc-4e76-81c5-a133d47d3e90": {
+      "ProjectGuid": "61619a4c-85dc-4e76-81c5-a133d47d3e90",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

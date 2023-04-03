@@ -13,6 +13,9 @@ namespace kursach
 {
     public partial class Main : Form
     {
+        private Form active;
+
+
         public Main()
         {
             InitializeComponent();
@@ -21,30 +24,53 @@ namespace kursach
 
         private void btn_deliv_Click(object sender, EventArgs e)
         {
-            delivery deliv = new delivery();
-            this.Hide();
-            deliv.ShowDialog();
+            PanelForm(new delivery());
         }
 
         private void btn_cust_Click(object sender, EventArgs e)
         {
-            customer cust = new customer();
-            this.Hide();
-            cust.ShowDialog();
+            PanelForm(new customer());
         }
 
         private void btn_point_Click(object sender, EventArgs e)
         {
-            point pnt = new point();
-            this.Hide();
-            pnt.ShowDialog();
+            PanelForm(new point());
         }
 
         private void btn_order_Click(object sender, EventArgs e)
         {
-            order ord = new order();
-            this.Hide();
-            ord.ShowDialog();
+            PanelForm(new order());
+        }
+
+        private void btn_workshift_Click(object sender, EventArgs e)
+        {
+            PanelForm(new workshift());
+        }
+
+        private void btn_log_Click(object sender, EventArgs e)
+        {
+            PanelForm(new logform());
+        }
+
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PanelForm(Form fm)
+        {
+            if (active != null)
+                active.Close();
+
+            active = fm;
+            fm.TopLevel = false;
+            fm.FormBorderStyle = FormBorderStyle.None;
+            fm.Dock = DockStyle.Fill;
+            this.panel1.Controls.Add(fm);
+            this.panel1.Tag = fm;
+            fm.BringToFront();
+            fm.Show();
         }
     }
 }
