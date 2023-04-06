@@ -82,14 +82,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(958, 722);
             this.panel1.TabIndex = 4;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btn_log
             // 
             this.btn_log.Location = new System.Drawing.Point(12, 378);
             this.btn_log.Name = "btn_log";
-            this.btn_log.Size = new System.Drawing.Size(123, 34);
+            this.btn_log.Size = new System.Drawing.Size(139, 34);
             this.btn_log.TabIndex = 5;
-            this.btn_log.Text = "Ошибки";
+            this.btn_log.Text = "Журнал событий";
             this.btn_log.UseVisualStyleBackColor = true;
             this.btn_log.Click += new System.EventHandler(this.btn_log_Click);
             // 
@@ -105,7 +106,7 @@
             this.Controls.Add(this.btn_cust);
             this.Controls.Add(this.btn_deliv);
             this.Name = "Main";
-            this.Text = "Main";
+            this.Text = "Главная страница";
             this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
 

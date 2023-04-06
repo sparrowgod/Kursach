@@ -57,7 +57,7 @@ namespace kursach
         {
 
         }
-
+        
         private void PanelForm(Form fm)
         {
             if (active != null)
@@ -71,6 +71,11 @@ namespace kursach
             this.panel1.Tag = fm;
             fm.BringToFront();
             fm.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

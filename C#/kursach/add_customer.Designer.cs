@@ -174,7 +174,7 @@
             this.Controls.Add(this.textBox_address);
             this.Controls.Add(this.textBox_fio);
             this.Name = "add_customer";
-            this.Text = "add_customer";
+            this.Text = "Добавление заказчика";
             this.Load += new System.EventHandler(this.add_customer_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

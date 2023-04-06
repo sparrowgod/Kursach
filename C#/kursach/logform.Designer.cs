@@ -95,9 +95,9 @@
             this.label7.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(72, 16);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(205, 25);
+            this.label7.Size = new System.Drawing.Size(195, 25);
             this.label7.TabIndex = 0;
-            this.label7.Text = "Страница ошибок";
+            this.label7.Text = "Журнал событий";
             // 
             // textBox_search
             // 
@@ -149,7 +149,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.dataGridView1);
             this.Name = "logform";
-            this.Text = "logform";
+            this.Text = "Журнал";
             this.Load += new System.EventHandler(this.logform_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
