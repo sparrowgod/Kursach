@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "75dec9f5-2642-4fe1-8424-0c45f5a2c4cc": {
+      "ProjectGuid": "75dec9f5-2642-4fe1-8424-0c45f5a2c4cc",
+      "DisplayName": "broker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

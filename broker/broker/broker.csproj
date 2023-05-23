@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75DEC9F5-2642-4FE1-8424-0C45F5A2C4CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>broker</RootNamespace>
+    <AssemblyName>broker</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.1.4\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="transactions\buy_sell_stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transactions\buy_sell_stock.Designer.cs">
+      <DependentUpon>buy_sell_stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="company\add_company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company\add_company.Designer.cs">
+      <DependentUpon>add_company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="broker\add_broker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="broker\add_broker.Designer.cs">
+      <DependentUpon>add_broker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="client\add_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="client\add_client.Designer.cs">
+      <DependentUpon>add_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="company\Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company\Company.Designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="company\stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company\stock.Designer.cs">
+      <DependentUpon>stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbClass\journal.cs" />
+    <Compile Include="main\Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main\Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="broker\broker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="broker\broker.Designer.cs">
+      <DependentUpon>broker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="client\clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="client\clients.Designer.cs">
+      <DependentUpon>clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbClass\DataBase.cs" />
+    <Compile Include="log_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="log_form.Designer.cs">
+      <DependentUpon>log_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Porfolio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Porfolio.Designer.cs">
+      <DependentUpon>Porfolio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="client\sub_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="client\sub_data.Designer.cs">
+      <DependentUpon>sub_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbClass\select.cs" />
+    <Compile Include="transactions\transactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transactions\transactions.Designer.cs">
+      <DependentUpon>transactions.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="transactions\buy_sell_stock.resx">
+      <DependentUpon>buy_sell_stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company\add_company.resx">
+      <DependentUpon>add_company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="broker\add_broker.resx">
+      <DependentUpon>add_broker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="client\add_client.resx">
+      <DependentUpon>add_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company\Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company\stock.resx">
+      <DependentUpon>stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main\Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="broker\broker.resx">
+      <DependentUpon>broker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="client\clients.resx">
+      <DependentUpon>clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="log_form.resx">
+      <DependentUpon>log_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Porfolio.resx">
+      <DependentUpon>Porfolio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="client\sub_data.resx">
+      <DependentUpon>sub_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transactions\transactions.resx">
+      <DependentUpon>transactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
